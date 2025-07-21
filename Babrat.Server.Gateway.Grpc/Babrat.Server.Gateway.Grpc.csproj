@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+
+
+    <ItemGroup>
+        <PackageReference Include="DryIoc.dll" Version="6.0.0-preview-09" />
+        <PackageReference Include="Mapster" Version="7.4.2-pre02" />
+        <PackageReference Include="Mapster.DependencyInjection" Version="1.0.3-pre02" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0-preview.2.25163.2" />
+        <PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
+        <PackageReference Include="Grpc" Version="2.46.6" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.63.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Babrat.Domain.Models\Babrat.Domain.Models.csproj" />
+        <ProjectReference Include="..\Babrat.Server.Core\Babrat.Server.Core.csproj" />
+    </ItemGroup>
+    
+
+    
+</Project>
